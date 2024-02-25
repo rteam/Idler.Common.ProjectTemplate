@@ -1,0 +1,7 @@
+{
+  "modules": [
+    { "type": "BaseMicroService.Store.StoreModule,BaseMicroService.Store" },
+    { "type": "BaseMicroService.DomainService.DomainServiceModule,BaseMicroService.DomainService" },
+    { "type": "BaseMicroService.API.APIModule,BaseMicroService.API" }
+  ]
+}

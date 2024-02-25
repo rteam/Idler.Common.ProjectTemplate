@@ -1,0 +1,76 @@
+{
+  "author": "rteam",
+  "classifications": [
+    "Web/BaseMicroService"
+  ],
+  "name": "BaseMicroService",
+  "identity": "BaseMicroService",
+  "shortName": "bms",
+  "symbols": {
+    "Example":{
+      "type": "parameter",
+      "dataType": "bool",
+      "defaultValue": "true"
+    },
+    "Cache": {
+      "type": "parameter",
+      "dataType": "bool",
+      "defaultValue": "true"
+    },
+    "DBType": {
+      "type": "parameter",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "SQLServer",
+          "description": "MS SQL Server"
+        },
+        {
+          "choice": "MySQL",
+          "description": "MySQL"
+        }
+      ],
+      "defaultValue": "MySQL",
+      "description": "The type of SQL to use"
+    },
+    "SQLServer": {
+      "type": "computed",
+      "value": "(DBType == \"SQLServer\")"
+    },
+    "MySQL": {
+      "type": "computed",
+      "value": "(DBType == \"MySQL\")"
+    }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "condition": "(!Cache)",
+          "exclude": [
+            "BaseMicroService.API/Startups/Startup.Cache.cs",
+            "BaseMicroService.API/Config/SimpleCache.json"
+          ]
+        },
+        {
+          "condition": "(!Example)",
+          "exclude": [
+            "BaseMicroService.API/Controllers/TestController.cs",
+            "BaseMicroService.Abstractions/Models/Test.cs",
+            "BaseMicroService.Abstractions/TestValue.cs",
+            "BaseMicroService.Implement/ITestAPI.cs",
+            "BaseMicroService.DomainService/TestDomainService.cs",
+            "BaseMicroService.DomainService/ITestDomainService.cs",
+            "BaseMicroService.Domain/Test.cs"
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "BaseMicroService",
+  "preferNameDirectory": true
+}

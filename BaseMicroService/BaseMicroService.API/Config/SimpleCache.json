@@ -1,0 +1,27 @@
+{
+  "SimpleCache": {
+    "Redis": "servserip,allowAdmin=true,testcluster=false",
+    "Settings": [
+      {
+        "Key": "HotCache",
+        "ExpiresTime": 300
+      },
+      {
+        "Key": "FastCache",
+        "ExpiresTime": 180
+      },
+      {
+        "Key": "HistoryCache",
+        "ExpiresTime": 21600
+      },
+      {
+        "Key": "LongCache",
+        "ExpiresTime": 6048000
+      },
+      {
+        "Key": "NotOverdue",
+        "ExpiresTime": -1
+      }
+    ]
+  }
+}
