@@ -14,7 +14,7 @@ public static class ImplementWebAPIExtensions
     /// <param name="services">依赖注入服务</param>
     /// <param name="configuration">配置文件</param>
     /// <returns></returns>
-    public static IServiceCollection AddSchoolWebAPI(this IServiceCollection services, IConfiguration configuration)
+    public static IServiceCollection AddWebAPI(this IServiceCollection services, IConfiguration configuration)
     {
 #if (Example)
         services.AddHttpApi<ITestAPI>()
