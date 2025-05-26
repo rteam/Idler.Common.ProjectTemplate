@@ -9,168 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfb3ad4c-c8ab-46d9-a821-91562766db2a" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/.idea/.idea.AdminTemplate/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/.idea/.idea.AdminTemplate/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/.idea/.idea.AdminTemplate/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate.API/APIModule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate.API/Autofac.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate.API/Config/AuthorizationBasicData.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate.API/Config/AuthorizationConfig.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate.API/Config/SimpleCache.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate.API/Controllers/AuthorizationController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate.API/Controllers/AuthorizationDesignController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate.API/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate.API/Startups/Startup.Auth.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate.API/Startups/Startup.AutoMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate.API/Startups/Startup.Autofac.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate.API/Startups/Startup.Cache.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate.API/Startups/Statup.WebAPIClient.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate.API/nlog.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate.DomainService/DomainServiceModule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate.DomainService/WebAPIs/IUserAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate.Store/DatabaseFactory.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate.Store/IdlerDBContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate.Store/StoreModule.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/AdminTemplate.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Components/NavMenuItem.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Models/MenuValue.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Index.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Maintain.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Output.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Permissions/AssociationResource.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Permissions/Create.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Permissions/Edit.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Permissions/Index.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Permissions/Index.razor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Resources/Create.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Resources/Edit.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Resources/ImportController.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Resources/Index.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Resources/Index.razor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Roles/AssociationPermission.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Roles/AssociationRoleToUser.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Roles/Create.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Roles/Edit.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Roles/Index.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Roles/Index.razor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Roles/Preview.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Roles/Users.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/AuthorizationDesign/Roles/Users.razor.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Pages/ImportData.razor" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Services/AuthorizationMessageHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Services/BaseService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Services/IAuthorizationAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AdminTemplate/AdminTemplate/Services/IAuthorizationDesignAPI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/.dockerignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport.API/Controllers/UsersController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Admin.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.AdminDashboard.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.AdminMenu.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Alias.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Apis.GraphQL.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.ArchiveLater.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.AuditTrail.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Autoroute.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.BackgroundTasks.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.ContentFields.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.ContentLocalization.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.ContentManagement.GraphQL.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.ContentPreview.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.ContentTypes.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Contents.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Cors.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.CustomSettings.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Data.YesSql.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Demo.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Deployment.Remote.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Deployment.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Diagnostics.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.DisplayManagement.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Email.Abstractions.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Email.Core.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Email.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Facebook.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Features.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Flows.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Forms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.GitHub.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Google.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Html.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Https.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Infrastructure.Abstractions.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Infrastructure.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Layers.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Liquid.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Lists.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Localization.Core.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Localization.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Markdown.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Media.AmazonS3.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Media.Azure.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Media.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Menu.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Microsoft.Authentication.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Navigation.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Notifications.Core.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Notifications.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.OpenId.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Placements.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.ProjectTemplates.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.PublishLater.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Queries.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.ReCaptcha.Core.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.ReCaptcha.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Recipes.Core.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Recipes.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.ReverseProxy.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Roles.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Rules.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Search.Elasticsearch.Core.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Search.Elasticsearch.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Search.Lucene.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Search.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Security.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Seo.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Settings.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Setup.Core.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Setup.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Shortcodes.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Sitemaps.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Sms.Core.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Sms.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Spatial.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Taxonomies.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Templates.Cms.Module.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Templates.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Tenants.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Tests.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Themes.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Title.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Twitter.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Users.Core.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Users.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Widgets.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Workflows.Abstractions.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.Workflows.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/OrchardCore.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/SafeMode.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/TheAdmin.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/TheAgencyTheme.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/TheBlogTheme.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Localization/zh-Hans/TheTheme.po" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Idler.SimpleModule.Passport/Idler.SimpleModule.Passport/Recipes/dashboard.recipe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BaseMicroService/.idea/projectSettingsUpdater.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BaseMicroService/.idea/projectSettingsUpdater.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BaseMicroService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BaseMicroService/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseMicroService.API/BaseMicroService.API.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BaseMicroService.API/BaseMicroService.API.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseMicroService.Abstractions/BaseMicroService.Abstractions.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BaseMicroService.Abstractions/BaseMicroService.Abstractions.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseMicroService.DomainService/BaseMicroService.DomainService.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BaseMicroService.DomainService/BaseMicroService.DomainService.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseMicroService.Implement/BaseMicroService.Implement.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BaseMicroService.Implement/BaseMicroService.Implement.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseMicroService.Implement/ImplementWebAPIExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaseMicroService.Implement/ImplementWebAPIExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BaseMicroService.Store/BaseMicroService.Store.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BaseMicroService.Store/BaseMicroService.Store.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.template.config/template.json" beforeDir="false" afterPath="$PROJECT_DIR$/.template.config/template.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BaseMicroService.Store/IdlerDBContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BaseMicroService.Store/IdlerDBContext.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,6 +28,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BaseMicroService.DomainService/TestDomainService.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="SWEA" />
   </component>
@@ -202,21 +46,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;UpTo9.0&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET 启动设置配置文件.BaseMicroService.API: http">
     <configuration name="BaseMicroService.API: http" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/BaseMicroService.API/BaseMicroService.API.csproj" />
@@ -291,7 +135,8 @@
       <workItem from="1717393304652" duration="149000" />
       <workItem from="1717393636904" duration="816000" />
       <workItem from="1717401327736" duration="137000" />
-      <workItem from="1747967269539" duration="515000" />
+      <workItem from="1747967269539" duration="712000" />
+      <workItem from="1747968021784" duration="195000" />
     </task>
     <servers />
   </component>

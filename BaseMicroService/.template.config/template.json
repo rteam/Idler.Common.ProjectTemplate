@@ -22,15 +22,15 @@
       "datatype": "choice",
       "choices": [
         {
-          "choice": "SQLServer",
-          "description": "MS SQL Server"
+          "choice": "PostgreSQL",
+          "description": "PostgreSQL"
         },
         {
           "choice": "MySQL",
           "description": "MySQL"
         }
       ],
-      "defaultValue": "MySQL",
+      "defaultValue": "PostgreSQL",
       "description": "The type of SQL to use"
     },
     "SQLServer": {
