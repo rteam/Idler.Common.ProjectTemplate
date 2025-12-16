@@ -1,0 +1,72 @@
+{
+  "author": "rteam",
+  "classifications": [
+    "Web/SimpleMicroService"
+  ],
+  "name": "SimpleMicroService",
+  "identity": "SimpleMicroService",
+  "shortName": "sms",
+  "symbols": {
+    "Example":{
+      "type": "parameter",
+      "dataType": "bool",
+      "defaultValue": "true"
+    },
+    "Cache": {
+      "type": "parameter",
+      "dataType": "bool",
+      "defaultValue": "true"
+    },
+    "DBType": {
+      "type": "parameter",
+      "datatype": "choice",
+      "choices": [
+        {
+          "choice": "PostgreSQL",
+          "description": "PostgreSQL"
+        },
+        {
+          "choice": "MySQL",
+          "description": "MySQL"
+        }
+      ],
+      "defaultValue": "PostgreSQL",
+      "description": "The type of SQL to use"
+    },
+    "MySQL": {
+      "type": "computed",
+      "value": "(DBType == \"MySQL\")"
+    }
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "condition": "(!Cache)",
+          "exclude": [
+            "SimpleMicroService.API/Startups/Startup.Cache.cs",
+            "SimpleMicroService.API/Config/SimpleCache.json"
+          ]
+        },
+        {
+          "condition": "(!Example)",
+          "exclude": [
+            "SimpleMicroService.API/Controllers/TestController.cs",
+            "SimpleMicroService.Abstractions/Models/Test.cs",
+            "SimpleMicroService.Abstractions/TestValue.cs",
+            "SimpleMicroService.Implement/ITestAPI.cs",
+            "SimpleMicroService.DomainService/TestDomainService.cs",
+            "SimpleMicroService.DomainService/ITestDomainService.cs",
+            "SimpleMicroService.DomainService/Domains/Test.cs"
+          ]
+        }
+      ]
+    }
+  ],
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "SimpleMicroService",
+  "preferNameDirectory": true
+}

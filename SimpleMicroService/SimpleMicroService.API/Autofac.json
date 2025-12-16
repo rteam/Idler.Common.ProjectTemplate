@@ -1,0 +1,6 @@
+{
+  "modules": [
+    { "type": "SimpleMicroService.DomainService.DomainServiceModule,SimpleMicroService.DomainService" },
+    { "type": "SimpleMicroService.API.APIModule,SimpleMicroService.API" }
+  ]
+}
