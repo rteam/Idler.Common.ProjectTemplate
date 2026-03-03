@@ -16,26 +16,6 @@
       "type": "parameter",
       "dataType": "bool",
       "defaultValue": "true"
-    },
-    "DBType": {
-      "type": "parameter",
-      "datatype": "choice",
-      "choices": [
-        {
-          "choice": "PostgreSQL",
-          "description": "PostgreSQL"
-        },
-        {
-          "choice": "MySQL",
-          "description": "MySQL"
-        }
-      ],
-      "defaultValue": "PostgreSQL",
-      "description": "The type of SQL to use"
-    },
-    "MySQL": {
-      "type": "computed",
-      "value": "(DBType == \"MySQL\")"
     }
   },
   "sources": [

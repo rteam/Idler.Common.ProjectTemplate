@@ -1,6 +1,8 @@
 using SimpleMicroService.Abstractions;
 using SimpleMicroService.Abstractions.Models;
 using Idler.Common.AutoMapper;
+using Idler.Common.Cache;
+using Idler.Common.Cache.FreeRedis;
 using Idler.Common.Core;
 using SimpleMicroService.DomainService.Domains;
 

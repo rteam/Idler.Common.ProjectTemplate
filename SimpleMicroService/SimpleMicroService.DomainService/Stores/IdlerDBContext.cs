@@ -1,7 +1,7 @@
 using Idler.Common.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-
+using SimpleMicroService.DomainService.Domains;
 namespace SimpleMicroService.DomainService.Stores;
 
 public class IdlerDBContext: CoreDBContext
@@ -16,7 +16,7 @@ public class IdlerDBContext: CoreDBContext
     }
     public IConfiguration Configuration { get; set; }
 #if (Example)
-    public DbSet<Test> Tests { get; set; }
+    internal DbSet<Test> Tests { get; set; }
 #endif
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
@@ -24,11 +24,7 @@ public class IdlerDBContext: CoreDBContext
         if (connectionString.IsEmpty())
             connectionString =
                 "Server=serverip;Database=dbname;User ID=user;Password=password";//开发或生产环境链接字符串
-#if (SQLServer)
-        optionsBuilder.UseSqlServer(connectionString);
-#elif (MySQL)
-        optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
-#endif
+        optionsBuilder.UseNpgsql(connectionString);
         base.OnConfiguring(optionsBuilder);
     }
 

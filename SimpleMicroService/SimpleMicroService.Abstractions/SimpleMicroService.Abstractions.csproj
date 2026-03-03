@@ -7,6 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Idler.Common.Core" Version="0.2.0.1" />
+        <PackageReference Include="Idler.Common.Core" Version="0.3.0" />
     </ItemGroup>
 </Project>
