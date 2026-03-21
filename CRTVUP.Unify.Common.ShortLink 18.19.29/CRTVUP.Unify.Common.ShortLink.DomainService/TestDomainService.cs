@@ -1,33 +1,27 @@
-using SimpleMicroService.Abstractions;
-using SimpleMicroService.Abstractions.Models;
+using CRTVUP.Unify.Common.ShortLink.Abstractions;
+using CRTVUP.Unify.Common.ShortLink.Abstractions.Models;
 using Idler.Common.AutoMapper;
 using Idler.Common.Cache;
 using Idler.Common.Core;
 using Microsoft.EntityFrameworkCore;
-using SimpleMicroService.DomainService.Domains;
+using CRTVUP.Unify.Common.ShortLink.DomainService.Domains;
 
-namespace SimpleMicroService.DomainService;
+namespace CRTVUP.Unify.Common.ShortLink.DomainService;
 
 internal class TestDomainService : BaseDomainService, ITestDomainService
 {
     public TestDomainService(
         IRepository<Test, Guid> testRepository,
-#if (Cache)
         ISimpleCacheManager<TestValue> testSimpleCacheManager,
-#endif
         IUnitOfWork unitOfWork
     )
         : base(unitOfWork)
     {
         this.TestRepository = testRepository;
-#if (Cache)
         this.TestSimpleCacheManager = testSimpleCacheManager;
-#endif
     }
 
-#if (Cache)
     private readonly ISimpleCacheManager<TestValue> TestSimpleCacheManager;
-#endif
     private readonly IRepository<Test, Guid> TestRepository;
 
     /// <summary>
@@ -102,7 +96,6 @@ internal class TestDomainService : BaseDomainService, ITestDomainService
 
         string cacheKey = string.Concat("Test_", id);
 
-#if (Cache)
         if (this.TestSimpleCacheManager.TryGet(cacheKey, out TestValue cacheItem))
         {
             return APIReturnInfo<TestValue>.Success(cacheItem);
@@ -115,13 +108,6 @@ internal class TestDomainService : BaseDomainService, ITestDomainService
         TestValue testValueWithCache = testWithCache.Map<Test, TestValue>();
         await this.TestSimpleCacheManager.SetAsync(cacheKey, _ => Task.FromResult(testValueWithCache));
         return APIReturnInfo<TestValue>.Success(testValueWithCache);
-#else
-        Test? test = await this.TestRepository.SingleAsync(id, cancellationToken);
-        if (test == null)
-            return APIReturnInfo<TestValue>.Error("信息不存在");
-
-        return APIReturnInfo<TestValue>.Success(test.Map<Test, TestValue>());
-#endif
     }
 
     /// <summary>

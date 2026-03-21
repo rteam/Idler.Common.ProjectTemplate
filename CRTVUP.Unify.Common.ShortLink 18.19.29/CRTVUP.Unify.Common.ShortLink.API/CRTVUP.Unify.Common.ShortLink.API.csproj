@@ -20,7 +20,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\SimpleMicroService.DomainService\SimpleMicroService.DomainService.csproj" />
+        <ProjectReference Include="..\CRTVUP.Unify.Common.ShortLink.DomainService\CRTVUP.Unify.Common.ShortLink.DomainService.csproj" />
     </ItemGroup>
     
     <ItemGroup>

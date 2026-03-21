@@ -1,7 +1,7 @@
 ﻿using Idler.Common.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
-namespace SimpleMicroService.DomainService.Stores;
+namespace CRTVUP.Unify.Common.ShortLink.DomainService.Stores;
 
 public class DatabaseFactory : IDbContextFactory
 {

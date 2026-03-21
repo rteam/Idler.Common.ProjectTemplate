@@ -1,0 +1,6 @@
+{
+  "modules": [
+    { "type": "CRTVUP.Unify.Common.ShortLink.DomainService.DomainServiceModule,CRTVUP.Unify.Common.ShortLink.DomainService" },
+    { "type": "CRTVUP.Unify.Common.ShortLink.API.APIModule,CRTVUP.Unify.Common.ShortLink.API" }
+  ]
+}

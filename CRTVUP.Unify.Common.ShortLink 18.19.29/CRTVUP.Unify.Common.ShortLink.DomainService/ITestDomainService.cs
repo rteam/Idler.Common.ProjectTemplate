@@ -1,8 +1,8 @@
-using SimpleMicroService.Abstractions;
-using SimpleMicroService.Abstractions.Models;
+using CRTVUP.Unify.Common.ShortLink.Abstractions;
+using CRTVUP.Unify.Common.ShortLink.Abstractions.Models;
 using Idler.Common.Core;
 
-namespace SimpleMicroService.DomainService;
+namespace CRTVUP.Unify.Common.ShortLink.DomainService;
 
 public interface ITestDomainService : IDomainService
 {

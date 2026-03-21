@@ -11,7 +11,7 @@
         <PackageReference Include="Idler.Common.EntityFrameworkCore" Version="0.3.0.1" />
         <PackageReference Include="Idler.Common.AutoMapper" Version="0.3.0.1" />
         <PackageReference Include="Idler.Common.Cache.FreeRedis" Version="0.3.0.1" />
-        <ProjectReference Include="..\SimpleMicroService.Abstractions\SimpleMicroService.Abstractions.csproj" />
+        <ProjectReference Include="..\CRTVUP.Unify.Common.ShortLink.Abstractions\CRTVUP.Unify.Common.ShortLink.Abstractions.csproj" />
     </ItemGroup>
     <ItemGroup>
         <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.0" />

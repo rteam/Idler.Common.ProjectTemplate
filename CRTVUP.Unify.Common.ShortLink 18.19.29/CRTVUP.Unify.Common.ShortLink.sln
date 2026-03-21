@@ -1,11 +1,11 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMicroService.Abstractions", "SimpleMicroService.Abstractions\SimpleMicroService.Abstractions.csproj", "{41EBDD63-5FF8-4293-A9DB-6622049B16E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRTVUP.Unify.Common.ShortLink.Abstractions", "CRTVUP.Unify.Common.ShortLink.Abstractions\CRTVUP.Unify.Common.ShortLink.Abstractions.csproj", "{41EBDD63-5FF8-4293-A9DB-6622049B16E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMicroService.DomainService", "SimpleMicroService.DomainService\SimpleMicroService.DomainService.csproj", "{60358566-6CC9-4F9A-8069-1F89A6B4F7CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRTVUP.Unify.Common.ShortLink.DomainService", "CRTVUP.Unify.Common.ShortLink.DomainService\CRTVUP.Unify.Common.ShortLink.DomainService.csproj", "{60358566-6CC9-4F9A-8069-1F89A6B4F7CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMicroService.API", "SimpleMicroService.API\SimpleMicroService.API.csproj", "{6B738BE2-EEE3-475D-A4CA-146D0152686C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRTVUP.Unify.Common.ShortLink.API", "CRTVUP.Unify.Common.ShortLink.API\CRTVUP.Unify.Common.ShortLink.API.csproj", "{6B738BE2-EEE3-475D-A4CA-146D0152686C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMicroService.Implement", "SimpleMicroService.Implement\SimpleMicroService.Implement.csproj", "{A19D06D7-7618-4F44-90DE-B5137DC30F57}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRTVUP.Unify.Common.ShortLink.Implement", "CRTVUP.Unify.Common.ShortLink.Implement\CRTVUP.Unify.Common.ShortLink.Implement.csproj", "{A19D06D7-7618-4F44-90DE-B5137DC30F57}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

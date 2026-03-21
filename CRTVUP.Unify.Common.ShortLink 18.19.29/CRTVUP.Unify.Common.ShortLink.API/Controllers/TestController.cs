@@ -1,10 +1,10 @@
-using SimpleMicroService.Abstractions;
-using SimpleMicroService.Abstractions.Models;
-using SimpleMicroService.DomainService;
+using CRTVUP.Unify.Common.ShortLink.Abstractions;
+using CRTVUP.Unify.Common.ShortLink.Abstractions.Models;
+using CRTVUP.Unify.Common.ShortLink.DomainService;
 using Idler.Common.Core;
 using Microsoft.AspNetCore.Mvc;
 
-namespace SimpleMicroService.API.Controllers;
+namespace CRTVUP.Unify.Common.ShortLink.API.Controllers;
 
 [ApiController]
 [Route("[controller]")]

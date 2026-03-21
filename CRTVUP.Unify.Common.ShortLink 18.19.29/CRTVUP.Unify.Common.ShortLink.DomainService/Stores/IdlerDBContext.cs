@@ -1,8 +1,8 @@
 using Idler.Common.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using SimpleMicroService.DomainService.Domains;
-namespace SimpleMicroService.DomainService.Stores;
+using CRTVUP.Unify.Common.ShortLink.DomainService.Domains;
+namespace CRTVUP.Unify.Common.ShortLink.DomainService.Stores;
 
 public class IdlerDBContext : CoreDBContext
 {
@@ -17,9 +17,7 @@ public class IdlerDBContext : CoreDBContext
 
     public IConfiguration? Configuration { get; set; }
 
-#if (Example)
     internal DbSet<Test> Tests { get; set; }
-#endif
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {

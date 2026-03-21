@@ -1,4 +1,4 @@
-using SimpleMicroService.API.Startups;
+using CRTVUP.Unify.Common.ShortLink.API.Startups;
 using Idler.Common.AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using NLog;
@@ -31,9 +31,7 @@ try
         }
     });
     builder.Services.AddAutoMapper();
-#if (Cache)
     builder.AddCache();
-#endif
     builder.Host.AddAutofac();
 
     var app = builder.Build();
