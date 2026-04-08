@@ -20,6 +20,16 @@
   },
   "sources": [
     {
+      "exclude": [
+        ".idea/**",
+        "**/.idea/**",
+        ".DS_Store",
+        "**/.DS_Store",
+        "artifacts/**",
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        "**/Logs/internal-nlog-AspNetCore.txt"
+      ],
       "modifiers": [
         {
           "condition": "(!Cache)",
@@ -32,7 +42,7 @@
           "condition": "(!Example)",
           "exclude": [
             "SimpleMicroService.API/Controllers/TestController.cs",
-            "SimpleMicroService.Abstractions/Models/Test.cs",
+            "SimpleMicroService.Abstractions/Models/TestModels.cs",
             "SimpleMicroService.Abstractions/TestValue.cs",
             "SimpleMicroService.Implement/ITestAPI.cs",
             "SimpleMicroService.DomainService/TestDomainService.cs",

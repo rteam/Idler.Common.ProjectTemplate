@@ -10,9 +10,9 @@ public class DatabaseFactory : IDbContextFactory
         this.Configuration = configuration;
     }
 
-    private IConfiguration Configuration { get; set; }
+    private IConfiguration Configuration { get; }
 
-    private CoreDBContext _coreDbContext;
+    private CoreDBContext? _coreDbContext;
     public virtual CoreDBContext Get()
     {
         return new IdlerDBContext() { Configuration = this.Configuration };
@@ -20,16 +20,14 @@ public class DatabaseFactory : IDbContextFactory
 
     public virtual void Dispose()
     {
-        if (this._coreDbContext != null)
-            this._coreDbContext.Dispose();
+        this._coreDbContext?.Dispose();
+        this._coreDbContext = null;
     }
 
 
     public virtual CoreDBContext Instance()
     {
-        if (this._coreDbContext == null)
-            this._coreDbContext = new IdlerDBContext() { Configuration = this.Configuration };
-
+        this._coreDbContext ??= new IdlerDBContext() { Configuration = this.Configuration };
         return this._coreDbContext;
     }
 }

@@ -19,7 +19,7 @@
     },
     "DBType": {
       "type": "parameter",
-      "datatype": "choice",
+      "dataType": "choice",
       "choices": [
         {
           "choice": "PostgreSQL",
@@ -33,9 +33,9 @@
       "defaultValue": "PostgreSQL",
       "description": "The type of SQL to use"
     },
-    "SQLServer": {
+    "PostgreSQL": {
       "type": "computed",
-      "value": "(DBType == \"SQLServer\")"
+      "value": "(DBType == \"PostgreSQL\")"
     },
     "MySQL": {
       "type": "computed",
@@ -44,6 +44,16 @@
   },
   "sources": [
     {
+      "exclude": [
+        ".idea/**",
+        "**/.idea/**",
+        ".DS_Store",
+        "**/.DS_Store",
+        "artifacts/**",
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        "**/Logs/internal-nlog-AspNetCore.txt"
+      ],
       "modifiers": [
         {
           "condition": "(!Cache)",
@@ -56,7 +66,7 @@
           "condition": "(!Example)",
           "exclude": [
             "BaseMicroService.API/Controllers/TestController.cs",
-            "BaseMicroService.Abstractions/Models/Test.cs",
+            "BaseMicroService.Abstractions/Models/TestModels.cs",
             "BaseMicroService.Abstractions/TestValue.cs",
             "BaseMicroService.Implement/ITestAPI.cs",
             "BaseMicroService.DomainService/TestDomainService.cs",

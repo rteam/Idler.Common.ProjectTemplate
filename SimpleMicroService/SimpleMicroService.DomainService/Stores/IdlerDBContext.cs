@@ -1,7 +1,9 @@
 using Idler.Common.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+#if (Example)
 using SimpleMicroService.DomainService.Domains;
+#endif
 namespace SimpleMicroService.DomainService.Stores;
 
 public class IdlerDBContext : CoreDBContext

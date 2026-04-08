@@ -17,18 +17,18 @@ public class IdlerDBContext: CoreDBContext
         : base(options)
     {
     }
-    public IConfiguration Configuration { get; set; }
+    public IConfiguration? Configuration { get; set; }
 #if (Example)
-    public DbSet<Test> Tests { get; set; }
+    public DbSet<Test> Tests { get; set; } = null!;
 #endif
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        string connectionString = this.Configuration.GetConnectionString("IdlerDBContext");
+        string? connectionString = this.Configuration?.GetConnectionString("IdlerDBContext");
         if (connectionString.IsEmpty())
             connectionString =
                 "Server=serverip;Database=dbname;User ID=user;Password=password";//开发或生产环境链接字符串
-#if (SQLServer)
-        optionsBuilder.UseSqlServer(connectionString);
+#if (PostgreSQL)
+        optionsBuilder.UseNpgsql(connectionString);
 #elif (MySQL)
         optionsBuilder.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString));
 #endif
@@ -37,6 +37,6 @@ public class IdlerDBContext: CoreDBContext
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        
+        base.OnModelCreating(modelBuilder);
     }
 }
