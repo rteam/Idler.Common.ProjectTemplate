@@ -5,6 +5,6 @@ namespace BaseMicroService.Abstractions
 {
     public class TestValue : EntityWithGuidNoTrace
     {
-        public string Name { get; set; }
+        public string Name { get; set; } = string.Empty;
     }
 }

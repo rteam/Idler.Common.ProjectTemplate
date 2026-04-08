@@ -2,6 +2,7 @@ using BaseMicroService.Abstractions;
 using BaseMicroService.Abstractions.Models;
 using BaseMicroService.Domain;
 using Idler.Common.AutoMapper;
+using Idler.Common.Cache;
 using Idler.Common.Core;
 
 namespace BaseMicroService.DomainService;
